@@ -115,7 +115,7 @@ if st.button("Predict"):
 
     try:
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://phishing-url-aye9.onrender.com/predict",
             json=input_data
         )
 
